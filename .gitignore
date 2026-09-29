@@ -4,6 +4,7 @@ install/
 log/
 test_results/
 .catkin_tools/
+.catkin_workspace
 .ros/
 __pycache__/
 *.py[cod]
