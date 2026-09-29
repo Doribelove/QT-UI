@@ -1,0 +1,14 @@
+build/
+devel/
+install/
+log/
+test_results/
+.catkin_tools/
+.ros/
+__pycache__/
+*.py[cod]
+*.bag
+*.bag.active
+*.swp
+*~
+.DS_Store

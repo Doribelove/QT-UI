@@ -1,0 +1,30 @@
+/* Reference copy from MainWindow::buildUi; C++ remains authoritative. */
+QMainWindow, QWidget { background: #101721; color: #e7edf5; font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; font-size: 13pt; }
+    QFrame#topBar { background: #17212e; border-bottom: 1px solid #334154; }
+    QLabel#appTitle { font-size: 21pt; font-weight: 700; color: #f3f7fb; }
+    QLabel#appSubtitle { color: #8fa0b5; font-size: 11pt; }
+    QFrame.statusCard { border-radius: 8px; border: 1px solid #405067; }
+    QLabel.statusTitle { color: #aeb9c8; font-size: 11pt; font-weight: 600; }
+    QLabel.statusState { font-size: 15pt; font-weight: 700; }
+    QLabel.statusDetail { color: #aab5c3; font-size: 10pt; }
+    QTabWidget::pane { border: 0; background: #101721; }
+    QTabBar::tab { background: #17212e; color: #aeb9c8; min-width: 92px; min-height: 40px; padding: 7px 16px; border-right: 1px solid #263346; font-size: 13pt; }
+    QTabBar::tab:selected { background: #243349; color: #ffffff; border-bottom: 4px solid #34a8ff; }
+    QTabBar::tab:hover { background: #202d3e; }
+    QGroupBox { background: #17212e; border: 1px solid #2b3a4e; border-radius: 8px; margin-top: 22px; padding: 19px 12px 12px 12px; font-size: 14pt; font-weight: 700; color: #dce5f0; }
+    QGroupBox::title { subcontrol-origin: margin; left: 14px; padding: 0 6px; }
+    QLabel.metricName { color: #8fa0b5; font-size: 12pt; }
+    QLabel.metricValue { color: #f1f5f9; font-size: 15pt; font-weight: 650; }
+    QPushButton { background: #245d87; color: white; border: 1px solid #347bb0; border-radius: 6px; min-height: 44px; padding: 4px 16px; font-size: 13pt; font-weight: 650; }
+    QPushButton:hover { background: #2d72a5; }
+    QPushButton:pressed { background: #1d4d71; }
+    QPushButton:disabled { background: #293442; color: #6f7b8a; border-color: #3a4655; }
+    QPushButton#dangerButton { background: #813a42; border-color: #b34d57; }
+    QPushButton#visionButton { background: #94621f; border-color: #c98a32; }
+    QPushButton#recordButton { background: #74425d; border-color: #a25b80; }
+    QDoubleSpinBox, QLineEdit { background: #0d141d; color: #edf3fa; border: 1px solid #405067; border-radius: 5px; min-height: 38px; padding: 2px 8px; font-size: 12pt; }
+    QDoubleSpinBox:disabled, QLineEdit:disabled { color: #6f7b8a; background: #202a37; }
+    QCheckBox { color: #c7d2df; spacing: 8px; min-height: 34px; font-size: 12pt; }
+    QPlainTextEdit, QTextBrowser { background: #0d141d; border: 1px solid #2c394a; border-radius: 6px; color: #c8d2df; selection-background-color: #245d87; font-size: 12pt; }
+    QScrollArea { border: 0; }
+    QSplitter::handle { background: #263346; width: 5px; height: 5px; }

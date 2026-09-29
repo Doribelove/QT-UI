@@ -1,0 +1,12 @@
+<launch>
+  <!-- This repository launches the Qt UI only. Robot backends are external. -->
+  <arg name="enable_rviz" default="true"/>
+  <arg name="camera_driver" default="zed"/>
+  <arg name="rviz_config" default="$(find autolabor_operator_gui)/config/operator_navigation.rviz"/>
+  <node pkg="autolabor_operator_gui" type="autolabor_operator_gui_node"
+        name="autolabor_operator_gui" output="screen" required="true">
+    <param name="enable_rviz" value="$(arg enable_rviz)"/>
+    <param name="camera_driver" value="$(arg camera_driver)"/>
+    <param name="rviz_config" value="$(arg rviz_config)"/>
+  </node>
+</launch>

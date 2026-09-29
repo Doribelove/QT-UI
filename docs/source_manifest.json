@@ -1,0 +1,281 @@
+{
+  "source_repository": "https://github.com/Doribelove/autolabor-robot-nav",
+  "source_commit": "4e1117cd3c8892cc48b29e3beeb5a85679921930",
+  "date": "2026-09-29",
+  "copied_files": [
+    {
+      "source": "src/application/autolabor_operator_gui/CMakeLists.txt",
+      "export": "src/application/autolabor_operator_gui/CMakeLists.txt",
+      "original_sha256": "075856f39183bc9056471a0cd146339a533a596ee30a82a342419bf71449adc9",
+      "export_sha256": "60715183081f81adb2e462ed3cb9ccfe27967e5e93aaaf6b6ba910009626e433",
+      "identical_to_source": false
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/README.md",
+      "export": "src/application/autolabor_operator_gui/README.md",
+      "original_sha256": "90ca22f2b341ef10c17435744563c134acd3366f3d80ba9af4c046cbb0fcabf9",
+      "export_sha256": "1e77c9e0d3fd4a0a76bdfcd2c68125c4bb5e6bf18e4eaa52ae8f541887a2095d",
+      "identical_to_source": false
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/config/operator_indoor.rviz",
+      "export": "src/application/autolabor_operator_gui/config/operator_indoor.rviz",
+      "original_sha256": "88a559534fd71fec389d92f556db55af9b378caec5071ddc9a9c923c7b31513c",
+      "export_sha256": "88a559534fd71fec389d92f556db55af9b378caec5071ddc9a9c923c7b31513c",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/config/operator_navigation.rviz",
+      "export": "src/application/autolabor_operator_gui/config/operator_navigation.rviz",
+      "original_sha256": "a505d54927f2582f6ef3cdacf5bb6941d202bfdb1a4f02340b0404e06eab187e",
+      "export_sha256": "a505d54927f2582f6ef3cdacf5bb6941d202bfdb1a4f02340b0404e06eab187e",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/include/autolabor_operator_gui/main_window.h",
+      "export": "src/application/autolabor_operator_gui/include/autolabor_operator_gui/main_window.h",
+      "original_sha256": "22a4c0af83cb6c7160dd5eff2fd08623e0d30ea68816364497795e642896a48e",
+      "export_sha256": "22a4c0af83cb6c7160dd5eff2fd08623e0d30ea68816364497795e642896a48e",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/include/autolabor_operator_gui/sweep_panel.h",
+      "export": "src/application/autolabor_operator_gui/include/autolabor_operator_gui/sweep_panel.h",
+      "original_sha256": "a425f88056bcd2a8008b8662a9da7ba11a01ca4379528cf46cb9526529c13c00",
+      "export_sha256": "a425f88056bcd2a8008b8662a9da7ba11a01ca4379528cf46cb9526529c13c00",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/include/autolabor_operator_gui/zed_camera_panel.h",
+      "export": "src/application/autolabor_operator_gui/include/autolabor_operator_gui/zed_camera_panel.h",
+      "original_sha256": "4d3359da5c9ba37adfb910c96985368920328a06233cc3d7165eb963584b1ead",
+      "export_sha256": "4d3359da5c9ba37adfb910c96985368920328a06233cc3d7165eb963584b1ead",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/launch/operator_gui.launch",
+      "export": "src/application/autolabor_operator_gui/launch/operator_gui.launch",
+      "original_sha256": "17b029fbaf95bc48f1bf9c4c8ec36e6141c7632e6ebcff732190f1862ebb8534",
+      "export_sha256": "4d8ed98bb85d9b007a05c5e8c16e75473a467059fe3d5fb4b649cc95c071ac02",
+      "identical_to_source": false
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/package.xml",
+      "export": "src/application/autolabor_operator_gui/package.xml",
+      "original_sha256": "55e3f4d56ba7e8f6e19938b823d0fe8e34f653eca64353f31afb975cc974d932",
+      "export_sha256": "076f443c46f42403b2891aaf504a3dc827a92d59a3219d8398627fb83a3df58d",
+      "identical_to_source": false
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/src/main.cpp",
+      "export": "src/application/autolabor_operator_gui/src/main.cpp",
+      "original_sha256": "59efb881145920d160d5199dab3dfbadfb3e3e3b84f4f8ebb6ec0b6c0a8169c9",
+      "export_sha256": "59efb881145920d160d5199dab3dfbadfb3e3e3b84f4f8ebb6ec0b6c0a8169c9",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/src/main_window.cpp",
+      "export": "src/application/autolabor_operator_gui/src/main_window.cpp",
+      "original_sha256": "24704204228b83ef4d1dcb12f6a140a12ac26ac53d17cbf35d5fbea0c61f4293",
+      "export_sha256": "24704204228b83ef4d1dcb12f6a140a12ac26ac53d17cbf35d5fbea0c61f4293",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/src/sweep_panel.cpp",
+      "export": "src/application/autolabor_operator_gui/src/sweep_panel.cpp",
+      "original_sha256": "88b5b084da023111d51f120fdc7e2f5531c22c660616bf0226573bb19fe0cc33",
+      "export_sha256": "88b5b084da023111d51f120fdc7e2f5531c22c660616bf0226573bb19fe0cc33",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/src/zed_camera_panel.cpp",
+      "export": "src/application/autolabor_operator_gui/src/zed_camera_panel.cpp",
+      "original_sha256": "d3a1a1a6d8b5e75ce8b4b495ff6f0e8c257d934f9183b77c442609ecde0190d1",
+      "export_sha256": "d3a1a1a6d8b5e75ce8b4b495ff6f0e8c257d934f9183b77c442609ecde0190d1",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/test/sweep_mock_server.py",
+      "export": "src/application/autolabor_operator_gui/test/sweep_mock_server.py",
+      "original_sha256": "83320524a402a3d7b6f6bf613a124abbac973c9557acee77f493276577552a63",
+      "export_sha256": "83320524a402a3d7b6f6bf613a124abbac973c9557acee77f493276577552a63",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/test/test_operator_gui_contract.py",
+      "export": "src/application/autolabor_operator_gui/test/test_operator_gui_contract.py",
+      "original_sha256": "303bb6f8bb04dbdfc76a024d4aa7c9c6b741b2f67ba29adb84468e5ed2d51a35",
+      "export_sha256": "81715a805ce05346fcdd9347e1b36239475645de904a148a14b7171f96978271",
+      "identical_to_source": false
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/test/test_sweep_panel.cpp",
+      "export": "src/application/autolabor_operator_gui/test/test_sweep_panel.cpp",
+      "original_sha256": "c68ac777ca73a3ebb9348ff3768a0e7e1392ebb2579e248fbac74ac8c0f712db",
+      "export_sha256": "c68ac777ca73a3ebb9348ff3768a0e7e1392ebb2579e248fbac74ac8c0f712db",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/test/test_zed_camera_panel.cpp",
+      "export": "src/application/autolabor_operator_gui/test/test_zed_camera_panel.cpp",
+      "original_sha256": "dc4c1399106a4472cc04a5dc02e5d69ccb8583e04298cd6c8015c7324fa0f773",
+      "export_sha256": "dc4c1399106a4472cc04a5dc02e5d69ccb8583e04298cd6c8015c7324fa0f773",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_gui/test/zed_camera_panel.test",
+      "export": "src/application/autolabor_operator_gui/test/zed_camera_panel.test",
+      "original_sha256": "b64790046939f501492669d579d85fd3526ef195993178ec68518931a9400c45",
+      "export_sha256": "b64790046939f501492669d579d85fd3526ef195993178ec68518931a9400c45",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_msgs/CMakeLists.txt",
+      "export": "src/application/autolabor_operator_msgs/CMakeLists.txt",
+      "original_sha256": "bec8dd7bd319c549aadd0189107a1175a83d05c77bec8a9fccf0343759ccdc18",
+      "export_sha256": "bec8dd7bd319c549aadd0189107a1175a83d05c77bec8a9fccf0343759ccdc18",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_msgs/msg/RabbitMqStatus.msg",
+      "export": "src/application/autolabor_operator_msgs/msg/RabbitMqStatus.msg",
+      "original_sha256": "4930b7069a38be8050ffc795c7ecca38f2f2ec7eb6ac6013c119c1d8a7c1f83d",
+      "export_sha256": "4930b7069a38be8050ffc795c7ecca38f2f2ec7eb6ac6013c119c1d8a7c1f83d",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_msgs/msg/RemoteTarget.msg",
+      "export": "src/application/autolabor_operator_msgs/msg/RemoteTarget.msg",
+      "original_sha256": "445834f2ed9ee93ef983f29dcd2b95ddd4024259562a56c4b43e09a63b12f1b2",
+      "export_sha256": "445834f2ed9ee93ef983f29dcd2b95ddd4024259562a56c4b43e09a63b12f1b2",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_operator_msgs/package.xml",
+      "export": "src/application/autolabor_operator_msgs/package.xml",
+      "original_sha256": "9a184df711b9e6a7c03fae8b0bf9ef88728913e6bcf6edcdde433247565c5f7a",
+      "export_sha256": "9a184df711b9e6a7c03fae8b0bf9ef88728913e6bcf6edcdde433247565c5f7a",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_fod_msgs/CMakeLists.txt",
+      "export": "src/application/autolabor_fod_msgs/CMakeLists.txt",
+      "original_sha256": "1bf88573e06ec348827bea3343cb010db87ac8313ecc928d7c9f74aa764658d0",
+      "export_sha256": "1bf88573e06ec348827bea3343cb010db87ac8313ecc928d7c9f74aa764658d0",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_fod_msgs/msg/FodDetection.msg",
+      "export": "src/application/autolabor_fod_msgs/msg/FodDetection.msg",
+      "original_sha256": "2baced450b4d031596fc1805f0082b39b5eaa8d487bfb01cdf14740f6310d28d",
+      "export_sha256": "2baced450b4d031596fc1805f0082b39b5eaa8d487bfb01cdf14740f6310d28d",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_fod_msgs/msg/FodDetectionArray.msg",
+      "export": "src/application/autolabor_fod_msgs/msg/FodDetectionArray.msg",
+      "original_sha256": "4eaf0032d90db8dce699a19f4d47d5f312df96a4a0ff232cc17e177531149ed2",
+      "export_sha256": "4eaf0032d90db8dce699a19f4d47d5f312df96a4a0ff232cc17e177531149ed2",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_fod_msgs/msg/FodGroundObservation.msg",
+      "export": "src/application/autolabor_fod_msgs/msg/FodGroundObservation.msg",
+      "original_sha256": "2b546b8a7c0ef416c8ce32a25bfcb74fdad31bc5d1d6ee5a14c749bff481f2ac",
+      "export_sha256": "2b546b8a7c0ef416c8ce32a25bfcb74fdad31bc5d1d6ee5a14c749bff481f2ac",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_fod_msgs/msg/FodGroundObservationArray.msg",
+      "export": "src/application/autolabor_fod_msgs/msg/FodGroundObservationArray.msg",
+      "original_sha256": "5fe03b9bdddd8a3b33cb8bb437320195996a11d61f008b158b89b77ad2e5bd3e",
+      "export_sha256": "5fe03b9bdddd8a3b33cb8bb437320195996a11d61f008b158b89b77ad2e5bd3e",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_fod_msgs/msg/FodTarget.msg",
+      "export": "src/application/autolabor_fod_msgs/msg/FodTarget.msg",
+      "original_sha256": "b4e34ab019e086216eacc2a1161fcdf9b88490e37e132d95f0d5b383ea0625b3",
+      "export_sha256": "b4e34ab019e086216eacc2a1161fcdf9b88490e37e132d95f0d5b383ea0625b3",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_fod_msgs/msg/FodTrack.msg",
+      "export": "src/application/autolabor_fod_msgs/msg/FodTrack.msg",
+      "original_sha256": "8ad8d428bd74e77dfaef4bbb86ed39fa89401b9f835bfd7996c7b34e14886e68",
+      "export_sha256": "8ad8d428bd74e77dfaef4bbb86ed39fa89401b9f835bfd7996c7b34e14886e68",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_fod_msgs/msg/FodTrackArray.msg",
+      "export": "src/application/autolabor_fod_msgs/msg/FodTrackArray.msg",
+      "original_sha256": "c07993186bebc37e567a75196fcb873799fc5ad0d64ce82c0df5e62e11221753",
+      "export_sha256": "c07993186bebc37e567a75196fcb873799fc5ad0d64ce82c0df5e62e11221753",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/application/autolabor_fod_msgs/package.xml",
+      "export": "src/application/autolabor_fod_msgs/package.xml",
+      "original_sha256": "37b72a90ec3ef0cb195cc628f02741bda710ede49140adbe7fcde94f451211cb",
+      "export_sha256": "37b72a90ec3ef0cb195cc628f02741bda710ede49140adbe7fcde94f451211cb",
+      "identical_to_source": true
+    },
+    {
+      "source": "scripts/operator_gui.sh",
+      "export": "scripts/operator_gui.sh",
+      "original_sha256": "6de765c5ed9d59b2e83b70d516c8cee82dae05228dd3b268d5aca1106206eada",
+      "export_sha256": "6de765c5ed9d59b2e83b70d516c8cee82dae05228dd3b268d5aca1106206eada",
+      "identical_to_source": true
+    },
+    {
+      "source": "scripts/record_rosbag.sh",
+      "export": "scripts/record_rosbag.sh",
+      "original_sha256": "2ae751d37b458f185f97a3780499e6406c7758435df2b9f8fad6289e1c8a3867",
+      "export_sha256": "a7d4823635831e22f765150a0545db51b02ff636fad89c7a18d439e565d04657",
+      "identical_to_source": false
+    },
+    {
+      "source": "scripts/sweep_test.py",
+      "export": "scripts/sweep_test.py",
+      "original_sha256": "8d7f3a953898aa1e7025a939eeb7344ada0c551b334db484ae7a5169590d608d",
+      "export_sha256": "8d7f3a953898aa1e7025a939eeb7344ada0c551b334db484ae7a5169590d608d",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/SweepDeviceControl/SweepDeviceControl.py",
+      "export": "src/SweepDeviceControl/SweepDeviceControl.py",
+      "original_sha256": "33c07b2155c120ad3a20917f0d6bded9c765f1f53b2730536dbe019cd53d7d57",
+      "export_sha256": "33c07b2155c120ad3a20917f0d6bded9c765f1f53b2730536dbe019cd53d7d57",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/SweepDeviceControl/test_sweep_test.py",
+      "export": "src/SweepDeviceControl/test_sweep_test.py",
+      "original_sha256": "17e5b62453cafb8faa73a69a61f5c0f4f3b387d87ce230404f4e81d0a2755cc7",
+      "export_sha256": "17e5b62453cafb8faa73a69a61f5c0f4f3b387d87ce230404f4e81d0a2755cc7",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/autolabor_core/autolabor_canbus_driver/autolabor_canbus_driver/msg/CanBusMessage.msg",
+      "export": "src/interfaces/autolabor_canbus_driver/msg/CanBusMessage.msg",
+      "original_sha256": "e98a5b6f008da7e56ce66b75df0af436dddda9a4d63037090e8488cf474eb4f4",
+      "export_sha256": "e98a5b6f008da7e56ce66b75df0af436dddda9a4d63037090e8488cf474eb4f4",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/perception_camera/hikrobot_mvs_camera/srv/GetImagingControls.srv",
+      "export": "src/interfaces/hikrobot_mvs_camera/srv/GetImagingControls.srv",
+      "original_sha256": "0fddc2b74af2cdb4a180b6312b2cc26a3e1e24a67b0ab185cb6e11b0d65d70ac",
+      "export_sha256": "0fddc2b74af2cdb4a180b6312b2cc26a3e1e24a67b0ab185cb6e11b0d65d70ac",
+      "identical_to_source": true
+    },
+    {
+      "source": "src/perception_camera/hikrobot_mvs_camera/srv/SetImagingControls.srv",
+      "export": "src/interfaces/hikrobot_mvs_camera/srv/SetImagingControls.srv",
+      "original_sha256": "e4a4bed71abadbacdbaec8cfecf97681e7f0fe2f47ce5fe4943597dac1acac0d",
+      "export_sha256": "e4a4bed71abadbacdbaec8cfecf97681e7f0fe2f47ce5fe4943597dac1acac0d",
+      "identical_to_source": true
+    }
+  ],
+  "notes": "Qt UI/design export. Adaptations are documented in docs/EXPORT_NOTES.md. C++ UI, headers, RViz configs and wire definitions preserve source bytes."
+}
